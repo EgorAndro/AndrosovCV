@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Neon CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+<div class="preloader">
+    <svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path fill="currentColor"
+              d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+        </path>
+    </svg>
+</div>
+    <div id="app">
+        <div class="body">
+            <aside class="profile">
+                <div class="profile__header">
+                    <a href="index.html"><img class="profile__photo" src="img/Androsov.jpeg" alt="avatar"></a>
+                    <div class="profile__data">
+                        <h3 class="profile__name">Yehor</h3>
+                        <h1 class="profile__surname">Androsov</h1>
+                        <p class="profile__speciality">Front End developer</p>
+                    </div>
+                </div>
+                <div class="profile__information">
+                    <div class="profile__information--contacts">
+                        <a href="mailto:egor.andro@gmail.com" target="_blank" class="profile__email">
+                            egor.andro@gmail.com
+                        </a>
+                        <a href="tel:+380734071709" target="_blank" class="profile__phone">
+                            +380734071709
+                        </a>
+                        <a href="https://goo.gl/maps/GEBKY7gY5N14cEcf9" target="_blank" class="profile__location">
+                            Dnipro, Ukraine
+                        </a>
+                        <a href="#" class="popup-open">My Projects</a>
+                        <div class="popup-black">
+                            <div class="popup">
+                                <a class="popup-close" href="#">Close</a>
+                                <div class="slider__container">
+                                    <h3 class="slider__title">In Progress...</h3>
+                                    <div class="slider">
+                                        <div class="slider__image"><a href="https://github.com/EgorAndro?tab=repositories"><img src="img/slider/bootstrapTemplate.png"></a></div>
+                                        <div class="slider__image"><a href="https://github.com/EgorAndro?tab=repositories"><img src="img/slider/hlegalsTemplate.png"></a></div>
+                                        <div class="slider__image"><a href="https://github.com/EgorAndro?tab=repositories"><img src="img/slider/personalBlog.png"></a></div>
+                                        <div class="slider__image"><a href="https://github.com/EgorAndro?tab=repositories"><img src="img/slider/randomTemplate.png"></a></div>
+                                        <div class="slider__image"><a href="https://github.com/EgorAndro?tab=repositories"><img src="img/slider/1hourPractice.png"></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__frontEnd">
+                        <h2 class="skills--title">Skills</h2>
+                        <div class="skills__container">
+                            <div class="pie" data-pie='{ "lineargradient": ["#ffff00","#ff0000"], "percent": 100, "colorSlice": "#000", "colorCircle": "#e6e6e6", "strokeWidth": 15, "number": false, "size": 70 }'>
+                                <img src="img/html-5.png" alt="html">
+                            </div>
+                            <div class="pie" data-pie='{ "lineargradient": ["#ffff00","#ff0000"], "percent": 90, "colorSlice": "#000", "colorCircle": "#e6e6e6", "strokeWidth": 15, "number": false, "size": 70 }'>
+                                <img src="img/css.png" alt="css">
+                            </div>
+                            <div class="pie" data-pie='{ "lineargradient": ["#ffff00","#ff0000"], "percent": 50, "colorSlice": "#000", "colorCircle": "#e6e6e6", "strokeWidth": 15, "number": false, "size": 70 }'>
+                                <img src="img/java-script.png" alt="js">
+                            </div>
+                            <div class="pie" data-pie='{ "lineargradient": ["#ffff00","#ff0000"], "percent": 25, "colorSlice": "#000", "colorCircle": "#e6e6e6", "strokeWidth": 15, "number": false, "size": 70 }'>
+                                <img src="img/react.png" alt="react">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__frontEnd--otherSkills">
+                        <h2 class="skills--title">Other Skills</h2>
+                        <div class="skills__container">
+                            <div class="pie" data-pie='{ "lineargradient": ["#ffff00","#ff0000"], "percent": 100, "colorSlice": "#000", "colorCircle": "#e6e6e6", "strokeWidth": 15, "number": false, "size": 70 }'>
+                                <img src="img/figma.png" alt="figma">
+                            </div>
+                            <div class="pie" data-pie='{ "lineargradient": ["#ffff00","#ff0000"], "percent": 90, "colorSlice": "#000", "colorCircle": "#e6e6e6", "strokeWidth": 15, "number": false, "size": 70 }'>
+                                <img src="img/photoshop.png" alt="photoshop">
+                            </div>
+                            <div class="pie" data-pie='{ "lineargradient": ["#ffff00","#ff0000"], "percent": 70, "colorSlice": "#000", "colorCircle": "#e6e6e6", "strokeWidth": 15, "number": false, "size": 70 }'>
+                                <img src="img/bootstrap.png" alt="bootstrap">
+                            </div>
+                            <div class="pie" data-pie='{ "lineargradient": ["#ffff00","#ff0000"], "percent": 25, "colorSlice": "#000", "colorCircle": "#e6e6e6", "strokeWidth": 15, "number": false, "size": 70 }'>
+                                <img src="img/jquery.png" alt="jquery">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile__information--hobbies">
+                        <h2 class="profile__information--title">Hobbies</h2>
+                        <div class="profile__information--hobbiesContent">
+                            <img src="img/football.png" alt="hobby">
+                            <img src="img/listening.png" alt="hobby">
+                            <img src="img/gamepad.png" alt="hobby">
+                            <img src="img/travel.png" alt="hobby">
+                        </div>
+                    </div>
+                    <div class="profile__information--socialContainer">
+                        <h2 class="profile__information--title">Social Networks</h2>
+                        <div class="profile__information--social">
+                            <a href="https://www.linkedin.com/in/yehor-androsov/" target="_blank" class="profile__social--linkedin">
+                                <img src="img/linkedin.png" alt="social-link">
+                            </a>
+                            <a href="https://github.com/EgorAndro" target="_blank" class="profile__social--github">
+                                <img src="img/octocat.png" alt="social-link">
+                            </a>
+                            <a href="https://t.me/Egor_Andro" target="_blank" class="profile__social--telegram">
+                                <img src="img/telegram.png" alt="social-link">
+                            </a>
+                            <a href="https://www.instagram.com/egorandro" target="_blank" class="profile__social--instagram">
+                                <img src="img/instagram.svg" alt="social-link">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <main class="main">
+                <article class="container">
+                    <h2 class="title--main">Work Experience</h2>
+                    <section class="box">
+                        <h3 class="title--secondary">Curator
+                        </h3>
+                        <p class="box__info">IT Step School, Dnipro | 2021 - 2022</p>
+                        <ul>
+                            <li class="informationList__text">Help students adapt to their new environment</li>
+                            <li class="informationList__text">Connect with kids/parents and have helped solve problems</li>
+                        </ul>
+                    </section>
+                    <section class="box">
+                        <h3 class="title--secondary">Event Manager
+                        </h3>
+                        <p class="box__info">"Kuraga" Event Agency | 2017 — 2022</p>
+                        <ul>
+                            <li class="informationList__text">Manage and coordinate suppliers and all event logistics (for example, venue, catering, travel)</li>
+                            <li class="informationList__text">Produce detailed proposals for events (including timelines, venues, suppliers, legal obligations, staffing and budgets)</li>
+                            <li class="informationList__text">liaise with clients to find out their exact event requirements</li>
+                        </ul>
+                    </section>
+                    <section class="box">
+                        <h3 class="title--secondary">DJ
+                        </h3>
+                        <p class="box__info">Bartolomeo best river resort | 2015 - 2022</p>
+                        <ul>
+                            <li class="informationList__text">Play music</li>
+                            <li class="informationList__text">Connect with people</li>
+                        </ul>
+                    </section>
+                </article>
+                <article class="container">
+                    <h2 class="title--main">Education</h2>
+                    <section class="box">
+                        <h3 class="title--secondary">National Metallurcal Academy of Ukraine
+                        </h3>
+                        <p class="box__info">2006 — 2012</p>
+                        <ul>
+                            <li class="informationList__text">Specialist of "electrometallurgy"</li>
+                        </ul>
+                    </section>
+                    <section class="box">
+                        <h3 class="title--secondary">Hillel IT-school
+                        </h3>
+                        <p class="box__info">March 2022 — May 2022</p>
+                        <ul>
+                            <li class="informationList__text">"Front End basic course" with Excellent rating
+                            <a class="certificate__mini" href="img/certificate.png" target="_blank">Click to Open</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="box">
+                        <h3 class="title--secondary">Additional Information</h3>
+                        <ul>
+                            <li class="informationList__text">English Pre-Intermediate (A2)</li>
+                            <li class="informationList__text">Ukrainian Native Speaker</li>
+                        </ul>
+                    </section>
+                </article>
+                <article class="container">
+                    <h2 class="title--main">Soft Skills</h2>
+                    <section class="box">
+                        <ul>
+                        <li class="informationList__text">Time Management</li>
+                        <li class="informationList__text">Team Work</li>
+                        <li class="informationList__text">Fast Learner</li>
+                        <li class="informationList__text">Adaptability</li>
+                        <li class="informationList__text">Result Oriented</li>
+                        </ul>
+                    </section>
+                </article>
+            </main>
+        </div>
+    </div>
+<script type="application/javascript" src="js/jquery.js"></script>
+<script type="application/javascript" src="js/modal.js"></script>
+<script src="js/circularProgressBar.min.js"></script>
+<script type="module" src="js/script.js"></script>
+</body>
+</html>
